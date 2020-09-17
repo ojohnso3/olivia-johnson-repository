@@ -1,9 +1,16 @@
-.projects {
-  /* background-color: yellow; */
+.experience {
+  /* background-color: lightgreen; */
   background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
   margin-top: 20vh;
-  height: 205vh;
+  height: 160vh;
   text-align: center;
+}
+
+.Olivia-logo {
+  height: 30vh;
+  width: 20vw;
+  margin: 10px;
+  border: black solid 3px
 }
 
 #home-title {
