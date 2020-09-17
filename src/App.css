@@ -1,4 +1,56 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: monospace !important; */
+  font-family: 'Roboto' !important;
+}
+
+.page-title {
+  font-size: 50px;
+}
+
+.the-title {
+  position: relative;
+  /* margin-top: 5vw; */
+  width: 100vw;
+  /* max-width: 300px; */
+}
+
+.page-image {
+  /* width: 70vw; */
+  /* height: 40vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh; */
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  min-height: 50vh;
+  margin-bottom: 5vh;
+  background-color: white;
+  border-bottom: solid black 1px; /* 32046c */
+}
+
+.overlay {
+  position: absolute;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  bottom: 30%;
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 40%;
+  transition: .5s ease;
+  /* opacity:0; */
+  color: white;
+  font-size: 70px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* // react */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +87,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

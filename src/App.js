@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Login from './Login.js';
+// import Home from './Home.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -12,9 +12,16 @@ function App() {
         <div>
           <Switch>
             <Route path="/" component={Login} exact />
+            {/* <Route path="/" component={Home} exact /> */}
           </Switch>
         </div>
       </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
+
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -30,8 +37,3 @@ function App() {
           Learn React
         </a>
       </header> */}
-    </div>
-  );
-}
-
-export default App;
