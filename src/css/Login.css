@@ -1,0 +1,107 @@
+.login {
+  text-align: center;
+  /* background-color: coral; */
+  background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
+  /* width: 100vw;
+  height: 100vh; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: sans-serif;
+  padding-top: 10vh;
+  /* font-family: 'Roboto' !important; */
+  border: solid 30px #32046c;
+}
+
+.login-logo {
+  height: 80px;
+  /* margin-left: 10px; */
+  /* border: green 5px solid */
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#my-name {
+  color: #e29d3a;
+}
+
+#welcome-header {
+  /* font-weight: 700px; */
+  font-size: 80px;
+  /* text-decoration: underline; */
+  /* font-style: bold; */
+  font-family: 'Bebas Neue' !important;
+
+}
+
+h2 {
+  /* background-color: orange */
+  /* font-weight: 700px; */
+  font-size: 30px;
+  /* font-family: 'Bebas Neue' !important; */
+  /* font-style: oblique; */
+  font-family: 'Roboto' !important;
+}
+
+.profile-container {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+
+}
+
+.user-profile {
+  display: flex;
+  width: 25vw;
+  text-align: center;
+  margin: 30px;
+  /* opacity: .5; */
+  position: relative;
+}
+
+.user-logo {
+  /* height: 30vh;
+  width: 20vw; */
+  /* height: 200px; */
+  width: 100%;
+  height: 100%;
+  border: solid 2px black;
+  transition: transform .2s; /* Animation */
+  border-radius: 20px;
+}
+
+/* .user-logo:hover {
+  transform: scale(1.5); 
+} */
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+
+.profile-name {
+  position: absolute;
+  /* border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; */
+  bottom: 5%;
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  /* width: 100%; */
+  transition: .5s ease;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+}
+
+#plus {
+  background-image: linear-gradient(to bottom right, #32046c, #b587ee);
+  border-radius: 20px;
+}
+
+/* #plus:hover {
+  background-image: linear-gradient(to bottom right, #b587ee, #c8a5f2);
+} */
+
+.user-profile:hover .profile-name {
+  opacity: 1;
+}

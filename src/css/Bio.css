@@ -1,0 +1,28 @@
+.bio {
+  border-top: solid black 3px;
+  margin-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #654391;
+}
+
+.bio-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-text {
+  background-color: #b587ee;
+  max-width: 40vw;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.olivia-logo {
+  min-height: 30vh;
+  min-width: 20vw;
+  margin: 10px;
+  border: black solid 3px
+}

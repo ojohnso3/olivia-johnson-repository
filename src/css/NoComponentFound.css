@@ -1,0 +1,11 @@
+#no-found-page {
+  height: 100vh;
+  margin-top: 15vh;
+  background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
+}
+
+#no-found-header {
+  margin-left: 10vw;
+}
+
+

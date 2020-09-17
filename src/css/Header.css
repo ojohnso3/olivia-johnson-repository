@@ -1,0 +1,57 @@
+.Home-logo {
+  animation: Home-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.header-logo {
+  height: 80px;
+  margin-left: 10px;
+  /* border: green 5px solid */
+  border-radius: 20px;
+}
+
+.logout-button {
+  margin-right: 10px;
+  height: 20vh;
+}
+
+.header {
+  /* background-color: rgba(16, 126, 170, 0.836); */
+  /* background-color: #524acd; */
+  background-image: linear-gradient(to bottom right, #32046c, #b587ee);
+  height: 20vh; /* TBD Size */
+  color: white;
+  position: fixed;   
+  top: 0;   
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+}
+
+.link {
+  font-family: 'Bebas Neue' !important;
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+}
+
+/* .header-body {
+  border: solid black 2px;
+  flex-direction: row;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+} */
+
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

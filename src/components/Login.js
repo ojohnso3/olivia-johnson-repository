@@ -1,6 +1,6 @@
 import React from 'react';
-// import '../css/Login.css';
-// import { message } from 'antd';
+import '../css/Login.css';
+import { message } from 'antd';
 
 class Login extends React.Component {
   
@@ -11,7 +11,7 @@ class Login extends React.Component {
   }
 
   handleAddProfile() {
-    // message.info('Try Clicking on Olivia!')
+    // message.info('Try Clicking on Olivia!') // fix later
   }
 
 

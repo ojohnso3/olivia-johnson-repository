@@ -1,7 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Login from './Login.js';
+import './css/App.css';
+import Login from './components/Login.js';
+import Home from './components/Home.js';
+import Projects from './components/Projects.js';
+import Experience from './components/Experience.js';
+import Profile from './components/Profile.js';
+import Bio from './components/Bio.js';
+import Education from './components/Education.js';
+import Skills from './components/Skills.js';
+import NoComponentFound from './components/NoComponentFound.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -12,9 +19,24 @@ function App() {
         <div>
           <Switch>
             <Route path="/" component={Login} exact />
+            <Route path="/login" component={Login} exact />
+            <Route path="/home" component={Home} exact />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/profile" component={Profile} />
+            <Route exact path="/bio" component={Bio} />
+            <Route exact path="/education" component={Education} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="*" component={NoComponentFound} />
           </Switch>
         </div>
       </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
+
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -30,8 +52,3 @@ function App() {
           Learn React
         </a>
       </header> */}
-    </div>
-  );
-}
-
-export default App;

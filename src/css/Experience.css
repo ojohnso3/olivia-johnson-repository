@@ -1,0 +1,25 @@
+.experience {
+  /* background-color: lightgreen; */
+  background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
+  margin-top: 20vh;
+  height: 160vh;
+  text-align: center;
+}
+
+.Olivia-logo {
+  height: 30vh;
+  width: 20vw;
+  margin: 10px;
+  border: black solid 3px
+}
+
+#home-title {
+  font-size: 50px;
+}
+
+.carousels {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}

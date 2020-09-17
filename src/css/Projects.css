@@ -1,0 +1,18 @@
+.projects {
+  /* background-color: yellow; */
+  background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
+  margin-top: 20vh;
+  height: 205vh;
+  text-align: center;
+}
+
+#home-title {
+  font-size: 50px;
+}
+
+.carousels {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
