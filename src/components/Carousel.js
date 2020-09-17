@@ -3,11 +3,6 @@ import '../css/Carousel.css';
 import { LeftOutlined, RightOutlined} from '@ant-design/icons';
 
 class Carousel extends React.Component {
-  
-  constructor(props) {
-    super(props); 
-
-  }
 
   render() {
     return (
@@ -17,19 +12,19 @@ class Carousel extends React.Component {
         <div className='project-container'>
           <LeftOutlined style={{ fontSize: '100px'}} className='arrow'/>
           <div className='project-item' onClick={()=>this.props.chooseModal(this.props.item1['short-title'])}>
-            <img src={this.props.item1['image']} className='project-image'></img>
+            <img src={this.props.item1['image']} alt='item1' className='project-image'></img>
             <h3 className='project-name'>{this.props.item1['short-title']}</h3>
           </div>
           <div className='project-item' onClick={()=>this.props.chooseModal(this.props.item2['short-title'])}>
-            <img src={this.props.item2['image']} className='project-image'></img>
+            <img src={this.props.item2['image']} alt='item2' className='project-image'></img>
             <h3 className='project-name'>{this.props.item2['short-title']}</h3>
           </div>
 
-          { this.props.item3 == 'no_item' ?
+          { this.props.item3 === 'no_item' ?
               null
               :
               <div className='project-item' onClick={()=>this.props.chooseModal(this.props.item3['short-title'])}>
-                <img src={this.props.item3['image']} className='project-image'></img>
+                <img src={this.props.item3['image']} alt='item3' className='project-image'></img>
                 <h3 className='project-name'>{this.props.item3['short-title']}</h3>
               </div>
           }

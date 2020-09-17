@@ -19,7 +19,8 @@
   /* background-color: rgba(16, 126, 170, 0.836); */
   /* background-color: #524acd; */
   background-image: linear-gradient(to bottom right, #32046c, #b587ee);
-  height: 20vh; /* TBD Size */
+  height: 15vh; 
+  /* TBD */
   color: white;
   position: fixed;   
   top: 0;   

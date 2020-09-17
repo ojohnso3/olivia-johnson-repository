@@ -47,20 +47,20 @@ class ContentModal extends React.Component {
 
             <div className='modal-1'>
               <div className='modal-2'>
-                { this.state.type == 'project' ? 
-                <h3>Language(s): {this.state.content['languages']}</h3>
-                 : <h3>Role: {this.state.content['role']}</h3>
+                { this.state.type === 'project' ? 
+                <h3><b>Programming Languages:</b> {this.state.content['languages']}</h3>
+                 : <h3><b>Role:</b> {this.state.content['role']}</h3>
                 }
-                <h3>{this.state.content['date']}</h3>
+                <h3><b>Date:</b> {this.state.content['date']}</h3>
               </div>
               <div className='github-link'>
                 { this.state.content['github'] ?
-                <a href={this.state.content['github']} target='_blank'><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                <a href={this.state.content['github']} target='_blank' rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
                 :
                 null
                 }
                 { this.state.content['website'] ?
-                <a href={this.state.content['website']} target='_blank'><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                <a href={this.state.content['website']} target='_blank' rel="noopener noreferrer"><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
                 :
                 null
                 }

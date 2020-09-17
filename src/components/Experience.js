@@ -91,7 +91,7 @@ class Experience extends React.Component {
         <div className='experiences-content'>
 
           <div className='the-title'>
-            <img src='experience.jpg' className='page-image'/>
+            <img src='experience.jpg' alt='experience' className='page-image'/>
             <div className="overlay">Experience</div>
           </div>
 

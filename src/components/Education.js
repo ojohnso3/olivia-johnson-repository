@@ -2,15 +2,11 @@ import React from 'react';
 import '../css/Education.css';
 
 class Education extends React.Component {
-  
-  constructor(props) {
-    super(props); 
-  }
 
   render() {
     return (
       <div className='education'>
-        <a id='education-top'></a>
+        <a id='education-top'/>
         <h1 className='section-title'>My Education</h1>
 
         <div className='schools'>
@@ -28,7 +24,7 @@ class Education extends React.Component {
             <h2>Trinity High School</h2>
             <h3><b>Location:</b> New York City, NY</h3>
             <h3><b>Graduation Year:</b> 2018</h3>
-            <h3><b>Honors:</b> Cum Laude, Hawley Award (Top 3 Students), Olympic Soccer Development Program</h3>
+            <h3><b>Honors:</b> Cum Laude, Hawley Award (High Academic Achievement), Olympic Soccer Development Program</h3>
           </div>
         </div>
         

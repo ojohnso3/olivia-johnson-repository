@@ -11,7 +11,7 @@ class Login extends React.Component {
   }
 
   handleAddProfile() {
-    // message.info('Try Clicking on Olivia!') // fix later
+    message.info('Try Clicking on Olivia!') // fix later
   }
 
 

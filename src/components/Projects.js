@@ -11,10 +11,10 @@ const projects = {
     "image": "orange-full.png",
     "date": "Summer 2020",
     "languages": "Javascript (React), HTML, CSS",
-    "github": 'https://github.com/ojohnso3/personal-portfolio',
-    "bullet1": "Built with React",
-    "bullet2": "yay",
-    "bullet3": "done"
+    "github": 'https://github.com/ojohnso3/olivia-johnson-website',
+    "bullet1": "Built a multi-page portfolio website from scratch using React.js",
+    "bullet2": "Used tools such as the Ant Design library and Heroku to design and deploy the website",
+    "bullet3": "Inspired by the design of popular TV streaming platforms such as Netflix + Hulu"
   },
   "FoodCOMA": {
     "title": "FoodCOMA: Recipe Recommendation Web Application",
@@ -135,7 +135,7 @@ class Projects extends React.Component {
         <div className='projects'>
 
           <div className='the-title'>
-            <img src='projects.jpg' className='page-image'/>
+            <img src='projects.jpg' alt='projects' className='page-image'/>
             <div className="overlay">Projects</div>
           </div>
 

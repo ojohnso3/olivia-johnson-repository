@@ -4,8 +4,6 @@ import Bio from './Bio.js';
 import Education from './Education.js';
 import Skills from './Skills.js';
 import '../css/Profile.css';
-import { Link } from 'react-router-dom';
-
 
 class Profile extends React.Component {
   render() {
@@ -14,9 +12,8 @@ class Profile extends React.Component {
         <Header/>
 
         <div className='profile-content'>
-          {/* <h1 className='page-title'>Profile Page</h1> */}
           <div className='the-title'>
-            <img src='profile.jpg' className='page-image'/>
+            <img src='profile.jpg' alt='profile' className='page-image'/>
             <div className="overlay">Profile</div>
           </div>
 
