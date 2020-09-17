@@ -1,0 +1,75 @@
+.resource {
+  height: 100px
+}
+
+.resource:hover .resource {
+  /* background-color: '#b587ee'; */
+  color: green;
+  background-color: red;
+  border: 2px solid orange;
+}
+
+.header {
+  z-index: 10;
+}
+
+.resources-container {
+  /* height: 30vh; */
+  width: 100vw;
+  /* margin-top: 5vh; */
+  margin-bottom: 15vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resource-item {
+  width: 20vw;
+  height: 30vh;
+  background-color: white;
+  border: 2px solid #32046c;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 
+.intro {
+  background-color: lightblue;
+  height: 30vh;
+  width: 60vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.olivia-pic {
+  height: 30vh;
+  width: 20vw;
+  border: black solid 3px
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 15vh;
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: orange; */
+  /* background-image: linear-gradient(to bottom right, #716bd0, #a6a3d8); */
+  background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid red 11px; */
+}
+
+.resource-name {
+  color: #32046c;
+}
