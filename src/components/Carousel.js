@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Carousel.css';
-import { Modal } from 'antd';
 import { LeftOutlined, RightOutlined} from '@ant-design/icons';
 
 class Carousel extends React.Component {
