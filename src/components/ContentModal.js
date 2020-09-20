@@ -55,22 +55,21 @@ class ContentModal extends React.Component {
               </div>
               <div className='github-link'>
                 { this.state.content['github'] ?
-                <a href={this.state.content['github']} target='_blank' rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                <a href={this.state.content['github']} target='_blank' rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/> View Code</a>
                 :
                 null
                 }
                 { this.state.content['website'] ?
-                <a href={this.state.content['website']} target='_blank' rel="noopener noreferrer"><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                <a href={this.state.content['website']} target='_blank' rel="noopener noreferrer"><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/> View Website</a>
                 :
                 null
                 }
               </div>
             </div>
-            <br />
             <ul>
-              <li>{this.state.content['bullet1']}</li>
-              <li>{this.state.content['bullet2']}</li>
-              <li>{this.state.content['bullet3']}</li>
+              <li className='bullets'>{this.state.content['bullet1']}</li>
+              <li className='bullets'>{this.state.content['bullet2']}</li>
+              <li className='bullets'>{this.state.content['bullet3']}</li>
             </ul> 
           </div>
         </Modal>

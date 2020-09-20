@@ -95,7 +95,7 @@ class Experience extends React.Component {
             <div className="overlay">Experience</div>
           </div>
 
-          <h2>Click on the images to learn more about my work experience!</h2>
+          <h2>Click on the images below to learn more about my work experience!</h2>
 
           <ContentModal
             visible={this.state.visible}

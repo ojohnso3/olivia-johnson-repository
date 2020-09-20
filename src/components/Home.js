@@ -7,7 +7,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <Header className='header'/>
+        <Header/> 
+        {/* className='header' */}
 
         <div className='home-content'>
           <div className='the-title'>

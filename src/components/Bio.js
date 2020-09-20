@@ -14,7 +14,7 @@ class Bio extends React.Component {
             Computer Science at Brown University. 
             <br/><br/> 
             I'm currently working as a Fullstack Software Engineer at Strongsuit. 
-            I am especially interested in Artificial Intelligence and Machine learning.
+            I am especially interested in Artificial Intelligence and Machine Learning.
             I am also passionate about the intersection of technology with fields such as entertainment and biotech. 
             <br/><br/> 
             Outside of software engineering, I love to play soccer, bake banana bread, read dystopian fiction, 
