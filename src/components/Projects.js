@@ -65,7 +65,7 @@ const projects = {
     'short-title': 'Decision Tree',
     "image": "decisiontree.png",
     "date": "Spring 2019",
-    "languages": "Java, Javascript, HTML, CSS, SQL",
+    "languages": "Java",
     "github": null,
     "bullet1": "Implemented the ID3 machine learning algorithm to generate a decision tree based on supervised learning",
     "bullet2": "Built tree by calculating the entropy of each example from the training data to determine its classification",
@@ -98,7 +98,7 @@ const projects = {
     'short-title': 'PageRank',
     "image": "pagerank.jpg",
     "date": "Spring 2019",
-    "languages": "Java, Javascript, HTML, CSS, SQL",
+    "languages": "Java",
     "github": null,
     "bullet1": "Implemented the PageRank algorithm pioneered by Google as the basis of their search engine",
     "bullet2": "Built graphs using an Adjacency Matrix, as well as Minimum Spanning Trees via Prim-Jarnik algorithm",
@@ -139,7 +139,7 @@ class Projects extends React.Component {
             <div className="overlay">Projects</div>
           </div>
 
-          <h2>Click on the images to learn more about my projects!</h2>
+          <h2>Click on the images below to learn more about my projects!</h2>
 
           <ContentModal
             visible={this.state.visible}
