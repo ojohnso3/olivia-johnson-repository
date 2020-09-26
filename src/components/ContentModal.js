@@ -1,7 +1,9 @@
 import React from 'react';
 import '../css/ContentModal.css';
 import { Modal } from 'antd';
-import { GithubOutlined, LaptopOutlined } from '@ant-design/icons';
+import { GithubOutlined, LaptopOutlined, InfoCircleOutlined } from '@ant-design/icons';
+import { Tooltip } from 'antd';
+
 
 
 class ContentModal extends React.Component {
@@ -53,14 +55,24 @@ class ContentModal extends React.Component {
                 }
                 <h3><b>Date:</b> {this.state.content['date']}</h3>
               </div>
-              <div className='github-link'>
+              <div>
                 { this.state.content['github'] ?
-                <a href={this.state.content['github']} target='_blank' rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/> View Code</a>
+                <div className='content-link'>
+                  <a href={this.state.content['github']} target='_blank' rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                  <Tooltip title="View Code">
+                  <InfoCircleOutlined style={{ fontSize: '20px'}} className='resource-info'/>
+                  </Tooltip>
+                </div>
                 :
                 null
                 }
                 { this.state.content['website'] ?
-                <a href={this.state.content['website']} target='_blank' rel="noopener noreferrer"><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/> View Website</a>
+                <div className='content-link'>
+                  <a href={this.state.content['website']} target='_blank' rel="noopener noreferrer"><LaptopOutlined style={{ fontSize: '50px'}} className='github-project'/></a>
+                  <Tooltip title="View Website">
+                  <InfoCircleOutlined style={{ fontSize: '20px'}} className='resource-info'/>
+                  </Tooltip>
+                </div>
                 :
                 null
                 }

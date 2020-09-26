@@ -41,12 +41,16 @@
 
 /* .modal-2 {
   border: solid black 2px;
-}
-
-.github-link {
-  text-align: center;
-  border: solid black 2px;
 } */
+
+.content-link {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* text-align: center;
+  border: solid black 2px; */
+}
 
 #github-project {
   vertical-align: middle;

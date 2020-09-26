@@ -3,6 +3,7 @@ import Header from './Header.js';
 import '../css/Experience.css';
 import ContentModal from './ContentModal';
 import Carousel from './Carousel';
+import { StarOutlined} from '@ant-design/icons';
 
 const experiences = {
   "Strongsuit": {
@@ -88,14 +89,34 @@ class Experience extends React.Component {
       <div className="experience">
         <Header/>
 
-        <div className='experiences-content'>
-
-          <div className='the-title'>
-            <img src='experience.jpg' alt='experience' className='page-image'/>
-            <div className="overlay">Experience</div>
+        <div className='experience'>
+          <div className='the-title' id='exp-main'>
+            <div>
+              <img src='experience.jpg' alt='projects' className='page-image'/>
+              <div className="overlay">Experience</div>
+            </div>
+            <div className='line-divider' id='gray-line' />
+            <div className='page-summary'>
+              <div>
+                <h1 className='summary-title' className='non-white'>My Work Experience</h1>
+                <p>Summer 2017 - Present</p>
+                <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
+                <br/><br/>
+              </div>
+              <div>
+                <h2 className='summary-body' className='non-white'>
+                  I am currently working as a full-time Fullstack Software Engineer at a 
+                  young tech-enabled startup. I also have extensive experience in University
+                  research and teaching, as I have worked both as a Teaching Assistant and
+                  Research Lab intern at Brown and Columbia University, respectively.
+                </h2>
+                <br/>
+                <p>Click on the images below for more details...</p>
+              </div>
+            </div>
           </div>
 
-          <h2>Click on the images below to learn more about my work experience!</h2>
+          {/* <h2>Click on the images below to learn more about my work experience!</h2> */}
 
           <ContentModal
             visible={this.state.visible}
@@ -128,3 +149,9 @@ class Experience extends React.Component {
 }
 
 export default Experience;
+
+
+{/* <div className='the-title'>
+<img src='experience.jpg' alt='experience' className='page-image'/>
+<div className="overlay">Experience</div>
+</div> */}

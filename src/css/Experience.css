@@ -1,7 +1,7 @@
 .experience {
   /* background-color: lightgreen; */
   background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
   height: 160vh;
   text-align: center;
 }
@@ -22,4 +22,17 @@
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+#exp-main {
+  background-color: #e6e4e4 !important;
+  color: #403f3f !important;
+}
+
+#gray-line {
+  background-color: #403f3f;
+}
+
+.non-white {
+  color: #403f3f !important;
 }

@@ -2,11 +2,9 @@
   height: 100px
 } */
 
-.resource:hover .resource {
-  /* background-color: '#b587ee'; */
-  color: green;
-  background-color: red;
-  border: 2px solid orange;
+.resource-link:hover .resource {
+  background-color: #32046c;
+  border-radius: 20px;
 }
 
 .header {
@@ -16,8 +14,8 @@
 .resources-container {
   /* height: 30vh; */
   width: 100vw;
-  /* margin-top: 5vh; */
-  margin-bottom: 20vh;
+  /* margin-top: 30px; */
+  margin-bottom: 100px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -27,15 +25,31 @@
 .resource-item {
   /* width: 20vw; */
   height: 30vh;
-  background-color: white;
+  background-color: black;
   border: 2px solid #32046c;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   /* align-items: center; */
+}
+
+#home-main {
+  background-color: black;
+}
+
+#orange-line {
+  background-color: #e29d3a;
+}
+
+.olivia-home {
+  height: 50vh;
+  width: auto;
+  /* min-width: 20vw; */
+  /* margin: 10px; */
+  /* border: black solid 3px */
 }
 
 /* 
@@ -56,8 +70,9 @@
 }
 
 .home-content {
+  border-bottom: solid black 1px;
   text-align: center;
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
   height: 100vh;
   overflow: hidden;
   /* background-color: orange; */
@@ -67,9 +82,4 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
-  /* border: solid red 11px; */
-}
-
-.resource-name {
-  color: #32046c;
 }

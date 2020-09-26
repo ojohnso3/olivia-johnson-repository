@@ -21,7 +21,7 @@ class Login extends React.Component {
 
         <h1 id='welcome-header'>Welcome to <span id='my-name'>Olivia Johnson</span>’s Website!</h1>
 
-        <h2>Whose profile are you visiting today?</h2>
+        <h2 id='sub-header'>Whose profile are you visiting today?</h2>
 
         <div className='profile-container'>
           <div className='user-profile'>

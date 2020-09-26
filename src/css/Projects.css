@@ -1,7 +1,7 @@
 .projects {
   /* background-color: yellow; */
   background-image: linear-gradient(to bottom right, #c8a5f2, #e3d2f9);
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
   height: 200vh;
   text-align: center;
 }
@@ -15,4 +15,14 @@
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+#blue-line {
+  background-color: #22dedd  ;
+}
+
+#projects-main {
+  background-color: #02042e  !important;
+  background-image: url('projects-reversd.png');
+  background-size: cover;
 }

@@ -1,5 +1,8 @@
 import React from 'react';
 import '../css/Projects.css';
+import { StarOutlined} from '@ant-design/icons';
+
+
 import Header from './Header.js';
 import ContentModal from './ContentModal';
 import Carousel from './Carousel';
@@ -8,7 +11,7 @@ const projects = {
   "Portfolio Website": {
     "title": "Portfolio Website",
     'short-title': 'Portfolio Website',
-    "image": "orange-full.png",
+    "image": "borange-full.png",
     "date": "Summer 2020",
     "languages": "Javascript (React), HTML, CSS",
     "github": 'https://github.com/ojohnso3/olivia-johnson-website',
@@ -133,13 +136,31 @@ class Projects extends React.Component {
       <div>
         <Header/>
         <div className='projects'>
-
-          <div className='the-title'>
-            <img src='projects.jpg' alt='projects' className='page-image'/>
-            <div className="overlay">Projects</div>
+          <div className='the-title' id='projects-main'>
+            <div>
+              <img src='projects.jpg' alt='projects' className='page-image'/>
+              <div className="overlay">Projects</div>
+            </div>
+            <div className='line-divider' id='blue-line' />
+            <div className='page-summary'>
+              <div>
+                <h1 className='summary-title'>My Projects</h1>
+                <p>Fall 2018 - Present</p>
+                <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
+                <br/><br/>
+              </div>
+              <div>
+                <h2 className='summary-body'>Ranging from topics of Machine Learning to Web Development, 
+                I have an extensive portfolio of projects both shipped to actual customers and contributing 
+                towards university research endeavors.
+                </h2>
+                <br/>
+                <p>Click on the images below for more details...</p>
+              </div>
+            </div>
           </div>
 
-          <h2>Click on the images below to learn more about my projects!</h2>
+          {/* <h2>Click on the images below to learn more about my projects!</h2> */}
 
           <ContentModal
             visible={this.state.visible}
@@ -182,3 +203,10 @@ class Projects extends React.Component {
 }
 
 export default Projects;
+
+
+
+          {/* <div className='the-title'>
+            <img src='projects.jpg' alt='projects' className='page-image'/>
+            <div className="overlay">Projects</div>
+          </div> */}

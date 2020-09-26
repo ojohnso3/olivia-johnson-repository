@@ -11,9 +11,9 @@ class Profile extends React.Component {
       <div className="profile">
         <Header/>
 
-        <div className='profile-content'>
+        <div className='profile'>
           <div className='the-title'>
-            <img src='profile.jpg' alt='profile' className='page-image'/>
+            <img src='profile.jpg' alt='profile' className='page-image' id='nyc-img'/>
             <div className="overlay">Profile</div>
           </div>
 

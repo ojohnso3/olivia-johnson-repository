@@ -1,4 +1,4 @@
-.project-container {
+.carousel-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -18,10 +18,12 @@
   /* border: solid red 3px; */
   display: flex;
   width: 20vw;
+  min-width: 300px !important;
   height: 30vh;
   text-align: center;
   /* margin: 30px; */
   position: relative;
+  margin: 10px;
 }
 
 .project-name {

@@ -11,24 +11,67 @@ body {
 
 .the-title {
   position: relative;
-  /* margin-top: 5vw; */
   width: 100vw;
+  /* margin-top: 5vw; */
   /* max-width: 300px; */
+  margin-bottom: 10px;
+
+  color: white;
+  height: 50vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: solid black 1px; /* 32046c */
+
+
+}
+
+.page-summary {
+  width: 40vw;
+  min-width: 300px;
+  height: 50vh;
+  /* background-color: orange; */
+  text-align: left;
+  /* background-color: pink !important; */
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.line-divider {
+  width: 20px;
+  height: 50vh;
+  text-align: left;
+  background-color: #e29d3a;
+  display: block;
+  /* margin-bottom: 5vh; */
+
+  /* z-index: 2; */
+}
+
+.summary-title {
+  font-family: 'Bebas Neue' !important;
+  color: white;
+}
+
+.summary-body {
+  font-family: 'Bebas Neue' !important;
+  color: white;
 }
 
 .page-image {
-  /* width: 70vw; */
-  /* height: 40vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh; */
   display: block;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   max-height: 50vh;
   min-height: 50vh;
   margin-bottom: 5vh;
   background-color: white;
+
+  width: 50vw !important;
+  min-width: 50px;
   border-bottom: solid black 1px; /* 32046c */
+
+  /* z-index: 1; */
 }
 
 .overlay {

@@ -17,6 +17,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
       {/* <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" /> */}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
         <div>
           <Switch>
             <Route path="/" component={Login} exact />

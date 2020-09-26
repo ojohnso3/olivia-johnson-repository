@@ -22,8 +22,9 @@
 
 
 .olivia-logo {
-  height: 40vh;
-  min-width: 20vw;
+  height: 50vh;
+  width: auto;
+  /* min-width: 20vw; */
   margin: 10px;
   border: black solid 3px
 }
