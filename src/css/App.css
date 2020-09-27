@@ -22,8 +22,6 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   border-bottom: solid black 1px; /* 32046c */
-
-
 }
 
 .page-summary {
@@ -46,6 +44,13 @@ body {
   /* margin-bottom: 5vh; */
 
   /* z-index: 2; */
+}
+
+.star-rating {
+  width: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .summary-title {

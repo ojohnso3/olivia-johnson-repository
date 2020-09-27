@@ -53,11 +53,11 @@ class Skills extends React.Component {
             <div className='lang'>
               <div>
                 <img src='react.png' className="lang-img" alt="logo" />
-                <h3>React</h3>
+                <h3>ReactJS</h3>
               </div>
               <div>
                 <img src='node.png' className="lang-img" alt="logo" />
-                <h3>Node</h3>
+                <h3>NodeJS</h3>
               </div>
               <div>
                 <img src='mongdb.png' className="lang-img" alt="logo" />

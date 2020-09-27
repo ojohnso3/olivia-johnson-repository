@@ -34,7 +34,7 @@ class Header extends React.Component {
         <Link to={{pathname:`/profile`}} className='link'>PROFILE</Link>
       </Menu.Item>
       <Menu.Item key='5'>
-        <Link to={{pathname:`/login`}} className='link'>LOG OUT</Link>
+        <Link to={{pathname:`/`}} className='link'>LOG OUT</Link>
         {/* <Button href='/login' className='logout-button' id='logout-menu' size='large' style={{fontSize: '25px'}}>Log Out</Button>   */}
       </Menu.Item>
     </Menu>)
@@ -50,7 +50,7 @@ class Header extends React.Component {
             <Link to={`/projects`} className='link'>PROJECTS</Link>
             <Link to={`/experience`} className='link'>EXPERIENCE</Link>
             <Link to={`/profile`} className='link'>PROFILE</Link>
-            <Button href='/login' className='logout-button' size='large' style={{fontSize: '25px'}}>Log Out</Button>  
+            <Button href='/' className='logout-button' size='large' style={{fontSize: '25px'}}>Log Out</Button>  
           </div>
         </nav>
         <Mobile>

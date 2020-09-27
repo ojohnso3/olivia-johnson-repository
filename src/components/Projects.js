@@ -1,23 +1,21 @@
 import React from 'react';
 import '../css/Projects.css';
 import { StarOutlined} from '@ant-design/icons';
-
-
 import Header from './Header.js';
 import ContentModal from './ContentModal';
 import Carousel from './Carousel';
 
 const projects = {
   "Portfolio Website": {
-    "title": "Portfolio Website",
+    "title": "My Portfolio Website",
     'short-title': 'Portfolio Website',
     "image": "borange-full.png",
     "date": "Summer 2020",
-    "languages": "Javascript (React), HTML, CSS",
+    "languages": "Javascript with React, HTML, CSS",
     "github": 'https://github.com/ojohnso3/olivia-johnson-website',
     "bullet1": "Built a multi-page portfolio website from scratch using React.js",
     "bullet2": "Used tools such as the Ant Design library and Heroku to design and deploy the website",
-    "bullet3": "Inspired by the design of popular TV streaming platforms such as Netflix + Hulu"
+    "bullet3": "Modeled web design off of the layout of popular TV streaming platforms such as Netflix & Hulu"
   },
   "FoodCOMA": {
     "title": "FoodCOMA: Recipe Recommendation Web Application",
@@ -41,16 +39,16 @@ const projects = {
     "bullet2": "Created a caching system that accessed and stored queried data from SQL film databases via a proxy class",
     "bullet3": "Built a website to search for connections with unique pages for each film/actor using a dynamic URL structure"
   },
-  "KDTree": {
-    "title": "KDTree: TBD",
-    'short-title': 'KDTree',
+  "K-D Tree": {
+    "title": "Stars: K-D Tree Algorithmic Application",
+    'short-title': 'K-D Tree',
     "image": "kdtree.png",
     "date": "Spring 2020",
     "languages": "Java, HTML, CSS",
     "github": null,
-    "bullet1": "tbd",
-    "bullet2": "tbd",
-    "bullet3": "tbd"
+    "bullet1": "Implemented a multi-dimensional nearest neighbors algorithm to search for stars with locations stored in a CSV file",
+    "bullet2": "Built a K-D Tree data structure to store the stars' locations as nodes for the k-dimensional search",
+    "bullet3": "Designed a graphical user interface for the algorithm as an alternative to the implemented command-line REPL"
   },
   "Neural Network": {
     "title": "Convolutional Recurrent Neural Network Model",
@@ -72,10 +70,10 @@ const projects = {
     "github": null,
     "bullet1": "Implemented the ID3 machine learning algorithm to generate a decision tree based on supervised learning",
     "bullet2": "Built tree by calculating the entropy of each example from the training data to determine its classification",
-    "bullet3": "TBD"
+    "bullet3": "Sparked my passion for machine learning and inspired greater research into neural networks"
   },
   "Database System": {
-    "title": "Database (Multi-threading)",
+    "title": "Database: Multi-threading & Concurrency",
     'short-title': 'Database System',
     "image": "database.png",
     "date": "Fall 2019",
@@ -146,8 +144,12 @@ class Projects extends React.Component {
               <div>
                 <h1 className='summary-title'>My Projects</h1>
                 <p>Fall 2018 - Present</p>
-                <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
-                <br/><br/>
+                <div className='star-rating'>
+                  <div>
+                    <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
+                  </div>
+                  <p>5.0</p>
+                </div>
               </div>
               <div>
                 <h2 className='summary-body'>Ranging from topics of Machine Learning to Web Development, 
@@ -191,7 +193,7 @@ class Projects extends React.Component {
               title={'Systems and Data Structures'}
               item1={projects['Database System']}
               item2={projects['Shell']}
-              item3={projects['KDTree']}
+              item3={projects['K-D Tree']}
               // item3={projects['PageRank']}
             />
           </div>

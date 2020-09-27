@@ -100,8 +100,12 @@ class Experience extends React.Component {
               <div>
                 <h1 className='summary-title' className='non-white'>My Work Experience</h1>
                 <p>Summer 2017 - Present</p>
-                <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
-                <br/><br/>
+                <div className='star-rating'>
+                  <div>
+                    <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
+                  </div>
+                  <p>5.0</p>
+                </div>
               </div>
               <div>
                 <h2 className='summary-body' className='non-white'>

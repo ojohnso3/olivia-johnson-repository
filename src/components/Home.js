@@ -18,8 +18,12 @@ class Home extends React.Component {
               <div>
                 <h1 className='summary-title'>Olivia Johnson</h1>
                 <p>Summer 2021</p>
-                <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
-                <br/><br/>
+                <div className='star-rating'>
+                  <div>
+                    <StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined /><StarOutlined />
+                  </div>
+                  <p>5.0</p>
+                </div>
               </div>
               <div>
                 <h2 className='summary-body'>A Fullstack Software Engineer with a breadth of 
