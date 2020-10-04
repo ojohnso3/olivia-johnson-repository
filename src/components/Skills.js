@@ -78,12 +78,12 @@ class Skills extends React.Component {
                 <h3>TensorFlow</h3>
               </div>
               <div>
-                <img src='jquery.png' className="lang-img" alt="logo" />
-                <h3>JQuery</h3>
+                <img src='redux.png' className="lang-img" alt="logo" />
+                <h3>Redux</h3>
               </div>
               <div>
-                <img src='latex.png' className="lang-img" alt="logo" />
-                <h3>LaTeX</h3>
+                <img src='jquery.png' className="lang-img" alt="logo" />
+                <h3>JQuery</h3>
               </div>
             </div>
           </div>

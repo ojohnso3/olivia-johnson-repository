@@ -110,8 +110,8 @@ class Experience extends React.Component {
               <div>
                 <h2 className='summary-body' className='non-white'>
                   I am currently working as a full-time Fullstack Software Engineer at a 
-                  young tech-enabled startup. I also have extensive experience in University
-                  research and teaching, as I have worked both as a Teaching Assistant and
+                  young tech-enabled startup. I also have extensive experience in
+                  research and teaching, as I have worked both as a Teaching Assistant and a
                   Research Lab intern at Brown and Columbia University, respectively.
                 </h2>
                 <br/>

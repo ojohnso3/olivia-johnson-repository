@@ -152,7 +152,7 @@ class Projects extends React.Component {
                 </div>
               </div>
               <div>
-                <h2 className='summary-body'>Ranging from topics of Machine Learning to Web Development, 
+                <h2 className='summary-body'>Ranging from topics such as Machine Learning to Web Development, 
                 I have an extensive portfolio of projects both shipped to actual customers and contributing 
                 towards university research endeavors.
                 </h2>
